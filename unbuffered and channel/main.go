@@ -3,7 +3,7 @@ package main
 
 
 func main() {
-	// unbuffered channel
+	// buffered channel
 	unbufferedChannel := make(chan string, 3)
 
 	func() {
