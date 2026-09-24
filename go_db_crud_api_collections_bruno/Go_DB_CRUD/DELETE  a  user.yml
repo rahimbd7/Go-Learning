@@ -1,0 +1,18 @@
+info:
+  name: DELETE  a  user
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: "{{Go_Base}}/users/5"
+  body:
+    type: json
+    data: ""
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
